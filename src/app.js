@@ -31,7 +31,7 @@ class App{
         const loadingPage = $(`
         <div id="main">
             <div id="title">
-                人生重开模拟器<br>
+                神级柜员系统<br>
                 <div style="font-size:1.5rem; font-weight:normal;">加载中...</div>
             </div>
         </div>
@@ -40,12 +40,12 @@ class App{
         // Index
         const indexPage = $(`
         <div id="main">
-            <div id="cnt" class="head">已重开1次</div>
+            <div id="cnt" class="head">已签到1次</div>
             <button id="rank">排行榜</button>
             <button id="themeToggleBtn">黑</button>
             <div id="title">
-                人生重开模拟器<br>
-                <div style="font-size:1.5rem; font-weight:normal;">这垃圾人生一秒也不想呆了</div>
+                神级柜员系统<br>
+                <div style="font-size:1.5rem; font-weight:normal;">逆天改命就看这次了！</div>
             </div>
             <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>立即重开</button>
         </div>
