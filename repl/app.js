@@ -50,9 +50,9 @@ class App {
         this.#talentExtend = global.localStorage.talentExtend;
         await this.#life.initial();
         this.output(`\rLoading Complete.
-人生重开模拟器
-这垃圾人生一秒也不想待了
-\n🎉键入 \x1B[4m/remake\x1B[24m 开始游戏`,
+神级柜员系统
+逆天改命就在这次了！
+\n🎉键入 \x1B[4m/remake\x1B[24m 柜员签到`,
             true
         );
     }
