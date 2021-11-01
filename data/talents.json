@@ -42,8 +42,8 @@
     },
     "1006": {
         "id": "1006",
-        "name": "乐天派",
-        "description": "快乐+1",
+        "name": "交际花",
+        "description": "人脉+2",
         "grade": 0,
         "effect": {
             "SPR": 1
@@ -51,10 +51,10 @@
     },
     "1007": {
         "id": "1007",
-        "name": "天赋异禀",
-        "description": "初始可用属性点+2",
+        "name": "三好生",
+        "description": "初始可用属性点+3",
         "grade": 1,
-        "status": 2
+        "status": 3
     },
     "1008": {
         "id": "1008",
@@ -264,8 +264,8 @@
     },
     "1031": {
         "id": "1031",
-        "name": "天生残疾",
-        "description": "体质-2",
+        "name": "过劳肥",
+        "description": "健康-2",
         "grade": 0,
         "effect": {
             "STR": -2
@@ -420,13 +420,13 @@
     },
     "1051": {
         "id": "1051",
-        "name": "知天命",
-        "description": "50岁时智力、快乐+1",
+        "name": "大器晚成",
+        "description": "50岁时职级+3",
         "condition": "AGE?[50]",
         "grade": 0,
         "effect": {
-            "SPR": 1,
-            "INT": 1
+            "SPR": 0,
+            "MNY": 3
         }
     },
     "1052": {
@@ -843,12 +843,12 @@
     },
     "1093": {
         "id": "1093",
-        "name": "大额头",
-        "description": "颜值-2，智力+2",
+        "name": "投错行了",
+        "description": "人脉-3，学识+3",
         "grade": 0,
         "effect": {
-            "CHR": -2,
-            "INT": 2
+            "CHR": -3,
+            "INT": 3
         }
     },
     "1094": {
