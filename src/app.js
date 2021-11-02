@@ -47,7 +47,7 @@ class App{
                 神级柜员系统<br>
                 <div style="font-size:1.5rem; font-weight:normal;">逆天改命就看这次了！</div>
             </div>
-            <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>立即重开</button>
+            <button id="restart" class="mainbtn"><span class="iconfont">&#xe770;</span>柜员签到</button>
         </div>
         `);
 
@@ -77,7 +77,7 @@ class App{
         // Talent
         const talentPage = $(`
         <div id="main">
-            <div class="head" style="font-size: 1.6rem">天赋抽卡</div>
+            <div class="head" style="font-size: 1.6rem">随机天赋</div>
             <button id="random" class="mainbtn" style="top: 50%;">10连抽！</button>
             <ul id="talents" class="selectlist"></ul>
             <button id="next" class="mainbtn" style="top:auto; bottom:0.1em">请选择3个</button>
@@ -126,7 +126,7 @@ class App{
                                 li.addClass('selected');
                                 this.#talentSelected.add(talent);
                                 if(this.#talentSelected.size==3) {
-                                    talentPage.find('#next').text('开始新人生')
+                                    talentPage.find('#next').text('开启新的职业生涯')
                                 }
                             }
                         });
@@ -155,7 +155,7 @@ class App{
             <ul id="propertyAllocation" class="propinitial"></ul>
             <ul class="selectlist" id="talentSelectedView" style="top:calc(100% - 17rem); bottom:7rem"></ul>
             <button id="random" class="mainbtn" style="top:auto; bottom:0.1rem; left:auto; right:50%; transform: translate(-2rem,-50%);">随机分配</button>
-            <button id="start" class="mainbtn" style="top:auto; bottom:0.1rem; left:50%; right:auto; transform: translate(2rem,-50%);">开始新人生</button>
+            <button id="start" class="mainbtn" style="top:auto; bottom:0.1rem; left:50%; right:auto; transform: translate(2rem,-50%);">开启新的职业生涯</button>
         </div>
         `);
         propertyPage.mounted = ()=>{
@@ -349,7 +349,7 @@ class App{
             <ul id="talents" class="selectlist" style="top:calc(65% + 0.5rem); bottom:8rem">
                 <li class="grade2b">黑幕（面试一定成功）</li>
             </ul>
-            <button id="again" class="mainbtn" style="top:auto; bottom:0.1em"><span class="iconfont">&#xe6a7;</span>再次重开</button>
+            <button id="again" class="mainbtn" style="top:auto; bottom:0.1em"><span class="iconfont">&#xe6a7;</span>再入职场</button>
         </div>
         `);
 
@@ -385,7 +385,7 @@ class App{
                     if(times > 0) {
                         btnRank.show();
                         cnt.show();
-                        cnt.text(`已重开${times}次`);
+                        cnt.text(`已重入职场${times}次`);
                         return;
                     }
 
