@@ -44,13 +44,13 @@ class Property {
 
     restart(data) {
         this.#data = {
-            [this.TYPES.AGE]: 21,
+            [this.TYPES.AGE]: 20,
             [this.TYPES.CHR]: 0,
             [this.TYPES.INT]: 0,
             [this.TYPES.STR]: 0,
             [this.TYPES.MNY]: 0,
             [this.TYPES.SPR]: 0,
-            [this.TYPES.LIF]: 21,
+            [this.TYPES.LIF]: 20,
             [this.TYPES.TLT]: [],
             [this.TYPES.EVT]: [],
         };
