@@ -47,7 +47,7 @@ class App{
                 神级柜员系统<br>
                 <div style="font-size:1.5rem; font-weight:normal;">逆天改命就看这次了！</div>
             </div>
-            <button id="restart" class="mainbtn"><span class="iconfont">&#xe770;</span>柜员签到</button>
+            <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>柜员签到</button>
         </div>
         `);
 
