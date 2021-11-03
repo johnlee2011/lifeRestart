@@ -50,7 +50,7 @@ class Property {
             [this.TYPES.STR]: 0,
             [this.TYPES.MNY]: 0,
             [this.TYPES.SPR]: 0,
-            [this.TYPES.LIF]: 0,
+            [this.TYPES.LIF]: 1,
             [this.TYPES.TLT]: [],
             [this.TYPES.EVT]: [],
         };
