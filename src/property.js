@@ -44,7 +44,7 @@ class Property {
 
     restart(data) {
         this.#data = {
-            [this.TYPES.AGE]: 20,
+            [this.TYPES.AGE]: -1,
             [this.TYPES.CHR]: 0,
             [this.TYPES.INT]: 0,
             [this.TYPES.STR]: 0,
