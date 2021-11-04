@@ -336,7 +336,7 @@ class App{
         // Summary
         const summaryPage = $(`
         <div id="main">
-            <div class="head">人生总结</div>
+            <div class="head">职场总结</div>
             <ul id="judge" class="judge" style="bottom: calc(35% + 2.5rem)">
                 <li class="grade2"><span>颜值：</span>9级 美若天仙</li>
                 <li><span>智力：</span>4级 智力一般</li>
