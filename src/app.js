@@ -221,10 +221,10 @@ class App{
             return {group, get, set};
         }
 
-        groups.CHR = getBtnGroups("颜值", 0, 10); // 颜值 charm CHR
-        groups.INT = getBtnGroups("智力", 0, 10); // 智力 intelligence INT
-        groups.STR = getBtnGroups("体质", 0, 10); // 体质 strength STR
-        groups.MNY = getBtnGroups("家境", 0, 10); // 家境 money MNY
+        groups.CHR = getBtnGroups("人脉", 0, 10); // 颜值 charm CHR
+        groups.INT = getBtnGroups("学识", 0, 10); // 智力 intelligence INT
+        groups.STR = getBtnGroups("健康", 0, 10); // 体质 strength STR
+        groups.MNY = getBtnGroups("财富", 0, 10); // 家境 money MNY
 
         const ul = propertyPage.find('#propertyAllocation');
 
@@ -345,7 +345,7 @@ class App{
                 <li><span>享年：</span>3岁 早夭</li>
                 <li><span>快乐：</span>3级 不太幸福的人生</li>
             </ul>
-            <div class="head" style="top:auto; bottom:35%">天赋，你可以选一个，下辈子还能抽到</div>
+            <div class="head" style="top:auto; bottom:35%">选择一个天赋，下次还能用</div>
             <ul id="talents" class="selectlist" style="top:calc(65% + 0.5rem); bottom:8rem">
                 <li class="grade2b">黑幕（面试一定成功）</li>
             </ul>
@@ -457,27 +457,27 @@ class App{
                     judge.append([
                         (()=>{
                             const { judge, grade, value } = s('CHR', max);
-                            return `<li class="grade${grade}"><span>颜值：</span>${value} ${judge}</li>`
+                            return `<li class="grade${grade}"><span>人脉：</span>${value} ${judge}</li>`
                         })(),
                         (()=>{
                             const { judge, grade, value } = s('INT', max);
-                            return `<li class="grade${grade}"><span>智力：</span>${value} ${judge}</li>`
+                            return `<li class="grade${grade}"><span>学识：</span>${value} ${judge}</li>`
                         })(),
                         (()=>{
                             const { judge, grade, value } = s('STR', max);
-                            return `<li class="grade${grade}"><span>体质：</span>${value} ${judge}</li>`
+                            return `<li class="grade${grade}"><span>健康：</span>${value} ${judge}</li>`
                         })(),
                         (()=>{
                             const { judge, grade, value } = s('MNY', max);
-                            return `<li class="grade${grade}"><span>家境：</span>${value} ${judge}</li>`
+                            return `<li class="grade${grade}"><span>财富：</span>${value} ${judge}</li>`
                         })(),
                         (()=>{
                             const { judge, grade, value } = s('SPR', max);
-                            return `<li class="grade${grade}"><span>快乐：</span>${value} ${judge}</li>`
+                            return `<li class="grade${grade}"><span>职级：</span>${value} ${judge}</li>`
                         })(),
                         (()=>{
                             const { judge, grade, value } = s('AGE', max);
-                            return `<li class="grade${grade}"><span>享年：</span>${value} ${judge}</li>`
+                            return `<li class="grade${grade}"><span>工龄：</span>${value} ${judge}</li>`
                         })(),
                         (()=>{
                             const m = type=>max(records.map(({[type]: value})=>value));
